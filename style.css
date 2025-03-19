@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b43f994-9aa9-440b-b5ba-215847ef12d0/d2j98ao-ddb75044-e751-4626-bb6a-278568177ae4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzViNDNmOTk0LTlhYTktNDQwYi1iNWJhLTIxNTg0N2VmMTJkMFwvZDJqOThhby1kZGI3NTA0NC1lNzUxLTQ2MjYtYmI2YS0yNzg1NjgxNzdhZTQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._IHVcufKjqMvKqXqJhvywJvaw9OErdo8MIUDjrVx6FQ");
+}
+h1{
+    color: aquamarine;
+}
+button{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(221, 121, 27);
+    color: rgb(12, 95, 116);
+    margin: 50px;
+    padding: 0px;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgb(197, 172, 230);
+    color:rgb(204, 27, 160);
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
+.fan{
+    animation: movefan 2s infinite;
+}
+@keyframes movefan{
+    
+    100%{
+        transform: rotate(360deg) ;
+    }
+}
